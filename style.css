@@ -1,0 +1,31 @@
+.container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+label,input{
+    display: block;
+}
+
+#my-form{
+    border:1px solid black;
+    padding:100px 100px;
+    background-color: rgb(61, 130, 191);
+    
+}
+
+#submit{
+    margin-top: 20px;
+    width: 100%;
+}
+#password-label{
+    margin-top: 10px;
+}
+
+#email-error,#password-error{
+    font-style: oblique;
+    color: rgba(131, 10, 10, 0.509);
+}
